@@ -1,0 +1,64 @@
+/* ! ===== Google Fonts Start ===== */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+/* ! ===== Google Fonts End =====/
+
+
+/* ! ===== Reset Start ===== */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Libre Franklin", sans-serif;
+}
+/* ! ===== Reset End ===== */
+
+
+/* ! ===== Body Style Start ===== */
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+/* ! ===== Body Style End ===== */
+
+
+/* ! ===== Container Style Start ===== */
+.container {
+    text-align: center;
+}
+
+.container h2 {
+    background: #222;
+    color: #fff;
+    padding: 1.8rem;
+    border-radius: 7px;
+    margin-bottom: 2.5rem;
+    text-transform: capitalize;
+}
+
+.color {
+    color: #F18F01;
+    letter-spacing: 2px;
+}
+
+.btn-hero {
+    text-transform: uppercase;
+    background: transparent;
+    color: #222;
+    letter-spacing: 0.1rem;
+    display: inline-block;
+    font-weight: 700;
+    transition: all 0.3s linear;
+    border: 3px solid #222;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+}
+
+.btn-hero:hover {
+    color: #fff;
+    background: #222
+}
+/* ! ===== Container Style Start ===== */
